@@ -19,7 +19,7 @@ bool WordHelper::isWordValid(const std::string& word) {
 	return true;
 }
 
-std::vector<std::string> WordHelper::loadFromFile(const std::string& filePath) {
+std::vector<std::string> WordHelper::loadWordsFromFile(const std::string& filePath) {
 
 	std::vector<std::string> words;
 

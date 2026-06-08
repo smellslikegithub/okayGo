@@ -5,6 +5,6 @@
 
 namespace WordHelper
 {
-    std::vector<std::string> loadFromFile(const std::string& filePath);
+    std::vector<std::string> loadWordsFromFile(const std::string& filePath);
 	bool isWordValid(const std::string& word);
 }
