@@ -49,8 +49,6 @@ public:
 
 	void runGame() {
 
-		srand(time(0));
-
 		int option{};
 
 		while (true) {
@@ -200,7 +198,7 @@ R"(
 		
 		this->drawUserInterface(maskedGuessedWord);
 
-		std::cout << "SECRET WORD" << this->wordToGuess << "\n";
+		std::cout << "Sectre Word: " << this->wordToGuess << "\n";
 		while (maskedGuessedWord != this->wordToGuess && currentTries < this->MAXTRIES){
 
 			
